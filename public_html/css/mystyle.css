@@ -17,14 +17,31 @@ header{
 	padding: 5px;
 }
 p{
-	font-size: 16px;
+	font-size: 20px;
 	font-family: times new roman, sans-serif;
+}
+.showtimes{
+	font-family: arial, sans-serif;
+	font-size: 32px;
+	color: red;
+}
+.shows{
+	text-align: left;
+	padding: 4px;
+	border: solid;
+	border-bottom: solid;
+}
+
+td{
+	text-align: center;
+	padding: 5px;
+	border: solid;
 }
 footer{
 	border-top: solid;
 	padding: 5px;
 }
-/* --- Nav Bar --- */
+/* nav bar borrowerd from the example from class*/
 nav ul {
   list-style-type: none;
   margin: 0;
