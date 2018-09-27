@@ -2,21 +2,51 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<title>Comedy Movie</title>
-<link rel="stylesheet" type="text/css" href="css\mystyle.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.1.3/darkly/bootstrap.min.css">
+    <title>Comedy Movie</title>
 </head>
 <body>
-<nav>
-<ul>
-    <li><a href="index.html">About Page</a></li>
-    <li><a href="space_ghosts.html">Space Ghosts</a></li>
-    <li><a href="comedy_movie.html">Comedy Movie</a></li>
-    <li><a href="chef_dog.html">Chef Dog</a></li>
-    <li><a href="action_movie.html">Action Movie</a></li>
-    <li><a href="love_birds.html">Love Birds</a></li>
-   <li><a href="ibook_movie.html">I Book</a></li>
-</ul>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="index.html">Simpson Movie Theater</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="purchase_page.html">Buy Tickets</a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Movies
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="space_ghosts.html">Space Ghosts</a>
+              <a class="dropdown-item" href="#">Comedy Movie</a>
+              <a class="dropdown-item" href="chef_dog.html">Chef Dog</a>
+              <a class="dropdown-item" href="action_movie.html">Action Movie</a>
+              <a class="dropdown-item" href="love_birds.html">Love Birds</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="ibook_movie.html">I-Book</a>
+            </div>
+          </li>
+        </ul>
+
+      </div>
 </nav>
 <h1>Tide Pod Man</h1>
 <img src="img/comedy_movie.png" alt="Tide Pod Man" />
@@ -27,16 +57,16 @@
 <p>PG-13</p>
 <p>3D Showing at 5&colon;10</p>
 <h3 class="showtimes">Showtimes</h3>
-<table class = "shows">
+<table class = "table">
     <thead>
         <tr>
-            <th>Monday</th>
-            <th>Tuesday</th>
-            <th>Wednesday</th>
-            <th>Thursday</th>
-            <th>Friday</th>
-            <th>Saturday</th>
-            <th>Sunday</th>
+            <th scope="col">Monday</th>
+            <th scope="col">Tuesday</th>
+            <th scope="col">Wednesday</th>
+            <th scope="col">Thursday</th>
+            <th scope="col">Friday</th>
+            <th scope="col">Saturday</th>
+            <th scope="col">Sunday</th>
          </tr>
      </thead>
      <tbody>
@@ -92,5 +122,9 @@
 <footer>
 &copy; Simpson College 2018 | Contact Us (515) 247-8992
 </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </body>
 </html>
