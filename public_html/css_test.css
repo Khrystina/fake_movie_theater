@@ -1,13 +1,13 @@
 body{
-	background: #A1A1A1;
+	background: #4FB99F;
 } 
 header { 
-	background-color: #730000;
+	background-color: #4FB99F;
 	background-repeat: no-repeat;
-	color: #F4CA5C;
+	color: #94090D;
 	font-family: Times new roman, palatino, serif;
 	font-size: 60px;
-	height: 75px;
+	height: 105px;
 	padding: 10px;
 }
 
@@ -15,11 +15,7 @@ p {
 	font-size: 16px;
 }
 
-section {
-	background: #BDD3DE;
-	max-width: 800px;
-	padding: 5px;
-}
+
 
 .article {
 	border-style: solid;
@@ -35,7 +31,7 @@ nav ul{
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
-	background-color: #333;
+	background-color: #BEEB9F;
 	font-family: arial, sans-serif;
 }
 
@@ -52,7 +48,7 @@ nav li a {
 }
 
 nav li a:hover {
-	background-color:#111;
+	background-color:#FFFF9D;
 }
 
 table {
