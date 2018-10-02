@@ -4,43 +4,107 @@
 <head>
     <meta charset="utf-8">
     <title>Space Ghosts</title>
+    <!-- This says our CSS is compatible with phones, and phones
+         don't need to scale it strangely. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Main CSS styles for Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+
+    <!-- Optional theme add-on -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.1.3/sandstone/bootstrap.min.css">
+    
     <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+    
 </head>
+
 <body>
-<nav>
-    <ul>
-       <li><a href="index.html">About Page</a></li>
-       <li><a href="space_ghosts.html">Space Ghosts</a></li>
-       <li><a href="comedy_movie.html">Comedy Movie</a></li>
-       <li><a href="chef_dog.html">Chef Dog</a></li>
-       <li><a href="action_movie.html">Action Movie</a></li>
-       <li><a href="love_birds.html">Love Birds</a></li>
-    </ul>
-</nav>
-    <h1>Space Ghosts</h1>
-    <header><u>Description</u></header>
-    <p>Space Ghosts, a death-defying horror film, 
-    is the story of two astronauts who end up stranded in outer space. 
-    They must not only face the galaxy's unknown mysteries, 
-    but also haunting spirits that roam the planet. 
-    Will they make it back to Earth alive?</p>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="index.html">Simpson Movie Theater</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home </a>
+          </li>
+
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Space Ghosts<span class="sr-only">(current)</span></a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="comedy_movie.html">Tide Pod Man</a>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link" href="chef_dog.html">Chef Dog</a>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link" href="action_movie.html">Rudo</a>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link" href="love_birds.html">Love Birds</a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="sign_up.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Sign Up
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="sign_up.html">Sign Up</a>
+              <a class="dropdown-item" href="registrar_forms.html">Registrar Forms</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="menu.html">Lunch Menu</a>
+            </div>
+          </li>
+        </ul>
+
+      </div>
+    </nav>
+    <div class="container border border-dark jumbotron">
+        <div class="row">
+            <div class="col-sm">
+                <h1>Space Ghosts</h1>
+                <header><u>Description</u></header>
+                <p>Space Ghosts, a death-defying horror film, 
+                is the story of two astronauts who end up stranded in outer space. 
+                They must not only face the galaxy's unknown mysteries, 
+                but also haunting spirits that roam the planet. 
+                Will they make it back to Earth alive?</p>
+            </div> 
+        </div>   
+    </div>
     <img src="img\space_ghosts.png" alt="Space Ghosts" />
-<h2>More Information</h2>
-    <p>Rating&colon; PG-13</p>
-    <p>Duration&colon; 1&colon;23</p>
-    <p>Director&colon; Steven Ghoul</p>
-    <p>Cast&colon; Trevor Simmons, Alexa Haven, Morris Elida
+    <div class="container border border-dark">
+        <div class="row">
+            <div class="col-sm">
+                <h2>More Information</h2>
+                <p>Rating&colon; PG-13</p>
+                <p>Duration&colon; 1&colon;23</p>
+                <p>Director&colon; Steven Ghoul</p>
+                <p>Cast&colon; Trevor Simmons, Alexa Haven, Morris Elida
+            </div> 
+        </div>   
+    </div>                        
+                        
+                        
 <h3>Showtimes</h3>
-<table class="center">
+<table class="center table table-striped table-dark">
     <thead>
         <tr>
-            <th>Monday</th>
-            <th>Tuesday</th>
-            <th>Wednesday</th>
-            <th>Thursday</th>
-            <th>Friday</th>
-            <th>Saturday</th>
-            <th>Sunday</th>
+            <th scope="col">Monday</th>
+            <th scope="col">Tuesday</th>
+            <th scope="col">Wednesday</th>
+            <th scope="col">Thursday</th>
+            <th scope="col">Friday</th>
+            <th scope="col">Saturday</th>
+            <th scope="col">Sunday</th>
          </tr>
      </thead>
      <tbody>
@@ -69,6 +133,12 @@
 <footer>
 &copy; Simpson College 2018 | Contact Us (515) 247-8992
 </footer>
+<!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    
 </body>
 </html>
         
