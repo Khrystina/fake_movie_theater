@@ -21,6 +21,7 @@ h1{
     left: 0;
     padding: 1rem;
     text-align: left;
+    font-weight: bold;
 }
 
 .first::first-letter {
@@ -56,9 +57,13 @@ h1{
 
 h2{
     font-size: 25px;
+    font-weight: bold;
 }
 
 header{
     font-size: 20px;
+    font-weight:bold;
 }
-
+h3{
+    font-weight: bold;
+}
