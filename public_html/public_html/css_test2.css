@@ -1,0 +1,13 @@
+body {
+	background-image: url(img/white_brick_background.jpg);
+}
+p{
+	font-family:Georgia, Times, serif;
+}
+
+.boxed{
+	background-color:#EAE7DC;
+	border: 3px #8E8D8A;
+	padding:10px 15px 10px 15px;
+	margin: 25px 10px 5px 10px;
+}
